@@ -59,12 +59,29 @@ class HomeScreen extends StatelessWidget {
                 child: ProductCard(product: Product.products[index]),
               );
             } ),
-        )
+        ),
+
+        SectionTitle(title: "MOST POPULAR"),
+        SizedBox(
+            height: 120,
+            child: ListView.builder(
+                padding: EdgeInsets.symmetric(horizontal: 20.0),
+                shrinkWrap: true,
+                itemCount: Product.products.length,
+                scrollDirection: Axis.horizontal,
+                itemBuilder: (context, index) {
+                  return Padding(
+                    padding: const EdgeInsets.only(right: 5.0),
+                    child: ProductCard(product: Product.products[index]),
+                  );
+                }),
+          ),
+
         ],
       ),
       bottomNavigationBar: CustomNavBar(),
     );
-  }
+  }  
 }
 
 

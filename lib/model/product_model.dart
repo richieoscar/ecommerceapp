@@ -41,7 +41,7 @@ class Product extends Equatable {
 
          Product(
         name: "Chair #2",
-        category: "Funiture",
+        category: "Water",
         imageUrl:
             'https://images.unsplash.com/photo-1519125323398-675f0ddb6308?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=94a1e718d89ca60a6337a6008341ca50&auto=format&fit=crop&w=1950&q=80',
         price: 200.00,
@@ -49,7 +49,7 @@ class Product extends Equatable {
         isPopular: false),
          Product(
         name: "Chair #3",
-        category: "Funiture",
+        category: "Water",
         imageUrl:
             'https://images.unsplash.com/photo-1519125323398-675f0ddb6308?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=94a1e718d89ca60a6337a6008341ca50&auto=format&fit=crop&w=1950&q=80',
         price: 200.00,
@@ -58,7 +58,7 @@ class Product extends Equatable {
 
          Product(
         name: "Chair #4",
-        category: "Funiture",
+        category: "Soft Drinks",
         imageUrl:
             'https://images.unsplash.com/photo-1519125323398-675f0ddb6308?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=94a1e718d89ca60a6337a6008341ca50&auto=format&fit=crop&w=1950&q=80',
         price: 200.00,
